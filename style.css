@@ -1,0 +1,61 @@
+*{
+   font-family: 'Courier New', Courier, monospace;
+}
+.navbar {
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(6px);
+  font-family: 'Courier New', Courier, monospace;;
+}
+.navbar .nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107;
+}
+
+#particles-js {
+  position: relative;
+  height: 100vh;
+  background: #0a0a0a;
+  z-index: 0;
+  overflow: hidden;
+}
+
+#particles-js .container {
+  z-index: 1;
+  position: relative;
+}
+
+.typing {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.me {
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+.me_img img{
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translate(-100%, -35%);
+  width: 34%;
+  height: fit-content;
+}
+
+/* Glow + hover flip effect */
+.skill-card {
+  transition: all 0.4s ease;
+  border-radius: 12px;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px) rotateX(2deg);
+  box-shadow: 0 8px 25px rgb(255, 255, 255);
+  z-index: 2;
+}
+
+
