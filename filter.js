@@ -5,7 +5,7 @@ const portfolioItems = document.querySelectorAll(".portfolio-item");
 window.addEventListener("DOMContentLoaded", () => {
   filterPortfolio("projects");
 
-  // Optional: Highlight the "project" button
+  //Highlight the "project" button
   filterButtons.forEach(btn => {
     if (btn.getAttribute("data-filter") === "projects") {
       btn.classList.add("active");
@@ -21,7 +21,7 @@ filterButtons.forEach(btn => {
     const filter = btn.getAttribute("data-filter");
     filterPortfolio(filter);
 
-    // Optional: Active button styling
+    // Active button styling
     filterButtons.forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
   });

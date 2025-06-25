@@ -14,7 +14,6 @@
 .navbar .nav-link:hover {
   color: #ffc107;
 }
-
 #particles-js {
   position: relative;
   height: 100vh;
@@ -45,6 +44,7 @@
   width: 34%;
   height: fit-content;
 }
+
 
 /* Glow + hover flip effect */
 .skill-card {
