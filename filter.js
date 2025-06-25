@@ -31,9 +31,12 @@ filterButtons.forEach(btn => {
 function filterPortfolio(filter) {
   portfolioItems.forEach(item => {
     if (item.classList.contains(filter)) {
-      item.style.display = "block";
+      item.style.display = "flex";
+      item.style.flexDirection = "column";
+      item.style.alignItems = "center";
     } else {
       item.style.display = "none";
     }
   });
 }
+
