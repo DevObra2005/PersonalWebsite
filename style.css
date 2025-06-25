@@ -44,9 +44,6 @@
   width: 34%;
   height: fit-content;
 }
-
-
-/* Glow + hover flip effect */
 .skill-card {
   transition: all 0.4s ease;
   border-radius: 12px;
@@ -72,8 +69,6 @@
     color: #ffffff;
     font-size: 1rem;
   }
-
-  /* Optional dark card background */
   .tech-item {
     padding: 20px;
     background-color: #1c1c1c;
